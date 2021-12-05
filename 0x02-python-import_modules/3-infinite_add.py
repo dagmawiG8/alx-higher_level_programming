@@ -9,6 +9,8 @@ if __name__ = "__main__":
         if i != 0:
             result += int(argument)
         else:
-            i += 1
+            i++;
 
     print("{:d}".format(result))
+else:
+    exit();
