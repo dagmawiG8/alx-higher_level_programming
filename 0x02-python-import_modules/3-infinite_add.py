@@ -11,6 +11,6 @@ for argument in sys.argv:
     if i != 0:
         result += int(argument)
     else:
-        i++;
+        i += 1;
 
 print("{:d}".format(result))
