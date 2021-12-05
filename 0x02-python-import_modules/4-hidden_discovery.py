@@ -5,6 +5,6 @@ import sys
 if __name__ != "__main__":
     exit()
 
-for hiddennames in hiddenfile:
+for hiddennames in dir(hiddenfile):
     if hiddennames[0:2] != "__":
         print("{}".format(hiddennames))
